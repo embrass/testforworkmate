@@ -101,7 +101,7 @@ def main():
     args = parser.parse_args()
 
 #git config --global user.name "Artyom. C"  git push -f -u master main
-# git config --global user.email embrassuwu@gmail.com
+# git config --global user.email embrassuwu@gmail.com github.com/embrass|
 
     try:
         data = load_csv(args.filename)
