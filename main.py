@@ -100,9 +100,6 @@ def main():
     parser.add_argument('--order-by', help='Сортировка в формате "column=order" (asc/desc)')
     args = parser.parse_args()
 
-#git config --global user.name "Artyom. C"  git push -f -u master main
-# git config --global user.email embrassuwu@gmail.com github.com/embrass|
-
     try:
         data = load_csv(args.filename)
 
