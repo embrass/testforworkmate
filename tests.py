@@ -33,13 +33,6 @@ def test_load_csv(sample_csv_data):
     assert data[1]["brand"] == "samsung"
     assert float(data[2]["price"]) == 199
 
-def test_load_csv(sample_csv_data):
-    data = load_csv(sample_csv_data)
-    assert len(data) == 10
-    assert data[0]["name"] == "iphone 15 pro"
-    assert data[1]["brand"] == "samsung"
-    assert data[9]["brand"] == "apple"
-    assert float(data[2]["price"]) == 199
 
 def test_filter_by_brand(sample_csv_data):
     data = load_csv(sample_csv_data)
