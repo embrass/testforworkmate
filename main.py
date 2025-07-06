@@ -135,4 +135,4 @@ if __name__ == "__main__":
 # python main.py products.csv --where "brand=apple" --aggregate "price=max"
 # python main.py products.csv --where --aggregate "price=max"
 # python main.py products.csv --where "brand=apple" --order-by "price=asc"
-# python main.py products.csv --where "brand=xiaomi" --aggregate "price=avg"
+# python main.py products.csv  --where "rating>4.0"
